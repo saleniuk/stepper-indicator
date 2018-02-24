@@ -10,9 +10,9 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
 
     <com.badoualy.stepperindicator.StepperIndicator
         android:id="@+id/stepper_indicator"
@@ -21,6 +21,30 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="32dp"
-        app:stpi_labels="@array/stepLabels"/>
+        app:stpi_animDuration="2500"
+        app:stpi_circleColor="#ff0000"
+        app:stpi_circleRadius="12dp"
+        app:stpi_circleStrokeWidth="1dp"
+        app:stpi_circleStyle="fill"
+        app:stpi_doneColor="#0000ff"
+        app:stpi_doneRadius="8dp"
+        app:stpi_doneStrokeWidth="1dp"
+        app:stpi_doneStyle="fill"
+        app:stpi_indicatorColor="#000000"
+        app:stpi_indicatorRadius="4dp"
+        app:stpi_indicatorStrokeWidth="1dp"
+        app:stpi_indicatorStyle="fill"
+        app:stpi_labels="@array/stepLabels"
+        app:stpi_lineColor="#ff0000"
+        app:stpi_lineDoneColor='#0000ff'
+        app:stpi_lineMargin="4dp"
+        app:stpi_lineStrokeWidth="1dp"
+        app:stpi_showDoneIcon="false"
+        app:stpi_showDoneStepNumber="true"
+        app:stpi_showStepNumber="true"
+        app:stpi_stepNumberColor="#00ff00"
+        app:stpi_stepNumberSize="8dp"
+        app:stpi_useBottomIndicator="true"
+        app:stpi_useOnlyIndicatorStyle="false"/>
 
 </RelativeLayout>

@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.saleniuk'
 
 android {
     compileSdkVersion 26
@@ -27,7 +29,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.0.0'
 }
 
-apply from: 'gradle-mvn-push.gradle'
+//apply from: 'gradle-mvn-push.gradle'
 
 repositories {
     mavenCentral()

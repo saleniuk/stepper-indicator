@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
         final StepperIndicator indicator = findViewById(R.id.stepper_indicator);
         // We keep last page for a "finishing" page
-        indicator.setViewPager(pager, true);
+        indicator.setViewPager(pager, false);
 
-        indicator.addOnStepClickListener(new StepperIndicator.OnStepClickListener() {
-            @Override
-            public void onStepClicked(int step) {
-                pager.setCurrentItem(step, true);
-            }
-        });
+//        indicator.addOnStepClickListener(new StepperIndicator.OnStepClickListener() {
+//            @Override
+//            public void onStepClicked(int step) {
+//                pager.setCurrentItem(step, true);
+//            }
+//        });
     }
 
 }
