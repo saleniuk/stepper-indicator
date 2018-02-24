@@ -1,5 +1,4 @@
-[![Release](https://jitpack.io/v/badoualy/stepper-indicator.svg)](https://jitpack.io/#badoualy/stepper-indicator)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-stepper--indicator-green.svg?style=true)](https://android-arsenal.com/details/1/3711)
+[![Release](https://jitpack.io/v/saleniuk/stepper-indicator.svg)](https://jitpack.io/#saleniuk/stepper-indicator)
 
 # ![](https://github.com/badoualy/stepper-indicator/blob/master/sample/src/main/res/mipmap-mdpi/ic_launcher.png) Stepper indicator
 > ### Designed by the awesome https://dribbble.com/LeslyPyram :)
@@ -7,10 +6,6 @@
 
 <img src="https://github.com/badoualy/stepper-indicator/blob/master/ART/screen.gif" width="300">
 
-Sample
-----------------
-
-You can checkout the [Sample Application](https://play.google.com/store/apps/details?id=com.badoualy.stepperindicator.sample) on the Play Store
 
 Setup
 ----------------
@@ -25,7 +20,7 @@ repositories {
 
 Then, add the library dependency:
 ```gradle
-compile 'com.github.saleniuk:stepper-indicator:2.0.0'
+compile 'com.github.saleniuk:stepper-indicator:2.0.0-alpha'
 ```
 
 Now go do some awesome stuff!
